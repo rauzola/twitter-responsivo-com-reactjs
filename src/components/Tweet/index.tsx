@@ -13,7 +13,7 @@ import {
   ImageContent,
   Icons,
   Status,
-  ComentIcon,
+  CommentIcon,
   RetweetIcon,
   LikeIcon,
 } from './styles';
@@ -31,19 +31,22 @@ const Tweet: React.FC = () => {
 
         <Content>
           <Header>
-            <strong>Rocketseat</strong>
-            <span>@rocketseat</span>
+            <strong>Anonymous</strong>
+            <span>@anonymous</span>
             <Dot />
-            <time>18 de julho</time>
+            <time>18 de jul</time>
           </Header>
 
-          <Description>Foguete não tem ré</Description>
+          {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
+          <Description>
+            Willyan Bonner confesa votar em Bolsonaro e causa revolução na Globo
+          </Description>
 
           <ImageContent />
 
           <Icons>
             <Status>
-              <ComentIcon />
+              <CommentIcon />
               18
             </Status>
             <Status>

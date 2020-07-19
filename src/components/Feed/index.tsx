@@ -4,7 +4,7 @@ import Tweet from '../Tweet';
 
 import { Container, Tab, Tweets } from './styles';
 
-const Fedd: React.FC = () => {
+const Feed: React.FC = () => {
   return (
     <Container>
       <Tab>Tweets</Tab>
@@ -15,10 +15,9 @@ const Fedd: React.FC = () => {
         <Tweet />
         <Tweet />
         <Tweet />
-        <Tweet />
       </Tweets>
     </Container>
   );
 };
 
-export default Fedd;
+export default Feed;

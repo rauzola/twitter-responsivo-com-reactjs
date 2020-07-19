@@ -12,10 +12,12 @@ import {
 
 export const Container = styled.div`
   display: none;
+
   @media (min-width: 500px) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     position: sticky;
     top: 0;
     left: 0;
@@ -115,6 +117,7 @@ export const MenuButton = styled.button`
 
 const iconCSS = css`
   flex-shrink: 0;
+
   width: 30px;
   height: 30px;
   color: var(--white);
@@ -155,6 +158,7 @@ export const Avatar = styled.div`
 
 export const ProfileData = styled.div`
   display: none;
+
   @media (min-width: 1280px) {
     display: flex;
     flex-direction: column;
@@ -177,7 +181,6 @@ export const ExitIcon = styled(ExitToApp)`
     height: 25px;
     color: var(--white);
     margin-left: 30px;
-
     cursor: pointer;
 
     &:hover {

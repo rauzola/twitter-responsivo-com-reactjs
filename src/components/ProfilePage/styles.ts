@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Baner = styled.div`
+export const Banner = styled.div`
   flex-shrink: 0;
 
   width: 100%;
@@ -52,14 +52,12 @@ export const ProfileData = styled.div`
     font-weight: bold;
     font-size: 19px;
   }
-
   > h2 {
     font-weight: normal;
     font-size: 15px;
 
     color: var(--gray);
   }
-
   > p {
     font-size: 15px;
     margin-top: 11px;
@@ -69,7 +67,6 @@ export const ProfileData = styled.div`
       color: var(--twitter);
     }
   }
-
   > ul {
     list-style: none;
     margin-top: 10px;
@@ -119,7 +116,7 @@ export const EditButton = styled(Button)`
   top: 2vw;
   right: 7px;
 
-  padding: 4px 19px;
+  padding: 4px 16px;
   font-size: 13px;
 
   @media (min-width: 320px) {

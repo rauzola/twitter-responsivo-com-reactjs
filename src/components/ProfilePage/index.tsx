@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Feed from '../Fedd';
+import Feed from '../Feed';
 
 import {
   Container,
-  Baner,
+  Banner,
   Avatar,
   ProfileData,
   LocationIcon,
@@ -16,28 +16,28 @@ import {
 const ProfilePage: React.FC = () => {
   return (
     <Container>
-      <Baner>
+      <Banner>
         <Avatar />
-      </Baner>
+      </Banner>
 
       <ProfileData>
-        <EditButton outlined>Editar Perfil</EditButton>
+        <EditButton outlined>Editar perfil</EditButton>
 
         <h1>Raul Sigoli</h1>
-        <h2>@Raul_sigoli</h2>
+        <h2>@raul_sigoli</h2>
 
         <p>
-          Developer at <a href="https://github.com/rauzola">@Rauzola</a>
+          Developer at <a href="https://github.com/rauzola">@Raul_Sigoli</a>
         </p>
 
         <ul>
           <li>
             <LocationIcon />
-            Maringá, PR, Brasil
+            Maringá, Paraná
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 18 fevereiro de 2000
+            Nascido(a) em 18 de fevereiro de 2000
           </li>
         </ul>
 

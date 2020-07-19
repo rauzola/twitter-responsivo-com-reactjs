@@ -105,15 +105,12 @@ const iconCSS = css`
 export const HomeIcon = styled(Home)`
   ${iconCSS}
 `;
-
 export const SearchIcon = styled(Search)`
   ${iconCSS}
 `;
-
 export const BellIcon = styled(Notifications)`
   ${iconCSS}
 `;
-
 export const EmailIcon = styled(Email)`
   ${iconCSS}
 `;

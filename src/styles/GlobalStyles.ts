@@ -10,10 +10,10 @@ export default createGlobalStyle`
   }
   html, body, #root {
     max-height: 100vh;
-    max-width: 100vh;
+    max-width: 100vw;
 
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
   *, button, input {
     border: 0;
@@ -35,6 +35,5 @@ export default createGlobalStyle`
     --twitter: #33A1F2;
     --twitter-dark-hover: #011017;
     --twitter-light-hover: #2C8ED6;
-  }
   }
 `;

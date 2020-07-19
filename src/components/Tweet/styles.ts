@@ -20,7 +20,6 @@ export const Retweeted = styled.div`
   font-size: 13px;
   color: var(--gray);
 `;
-
 export const RocketseatIcon = styled(Rocketseat)`
   width: 16px;
   height: 16px;
@@ -41,8 +40,8 @@ export const Body = styled.div`
 `;
 
 export const Avatar = styled.div`
-  height: 49px;
   width: 49px;
+  height: 49px;
   border-radius: 50%;
   flex-shrink: 0;
   background: var(--gray);
@@ -51,7 +50,6 @@ export const Avatar = styled.div`
   top: 0;
   left: 0;
 `;
-
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -60,7 +58,6 @@ export const Content = styled.div`
   margin-top: 2px;
   padding-left: 59px;
 `;
-
 export const Header = styled.div`
   display: flex;
   align-items: center;
@@ -115,7 +112,6 @@ export const Icons = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   flex-wrap: wrap;
   margin: 11px auto 0;
   width: 100%; /** Mobile */
@@ -170,7 +166,7 @@ const iconCSS = css`
   height: 19px;
 `;
 
-export const ComentIcon = styled(Chat)`
+export const CommentIcon = styled(Chat)`
   ${iconCSS}
 `;
 
